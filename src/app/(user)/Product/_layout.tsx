@@ -8,11 +8,11 @@ export default function ProductStack() {
     <Stack
       screenOptions={{
         headerRight: () => (
-          <Link href="/modal" asChild>
+          <Link href="/cart" asChild>
             <Pressable>
               {({ pressed }) => (
                 <FontAwesome
-                  name="info-circle"
+                  name="shopping-cart"
                   size={25}
                   color={Colors.light.tint}
                   style={{ marginRight: 15, opacity: pressed ? 0.5 : 1 }}
